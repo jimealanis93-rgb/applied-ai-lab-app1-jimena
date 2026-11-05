@@ -1,0 +1,6 @@
+{
+  "name": "Sales Revenue Analytics & Quarterly Variance AI",
+  "description": "Interactive sales revenue dashboard with regional and quarterly breakdown charts, pivot matrix tables, and AI-powered Q2-to-Q3 variance analysis grounded strictly in calculated figures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
