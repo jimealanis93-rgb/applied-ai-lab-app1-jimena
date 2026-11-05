@@ -55,7 +55,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-blue-600 selection:text-white">
+    <div className="min-h-screen bg-[#4169e1] text-slate-100 flex flex-col font-sans selection:bg-blue-600 selection:text-white">
       {/* Sticky Header */}
       <Header currentDataset={datasetName} totalOrders={orders.length} />
 
@@ -96,7 +96,7 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-900 bg-slate-950/60 py-4 mt-12 text-center text-xs text-slate-400">
+      <footer className="border-t border-blue-400/20 bg-blue-950/60 py-4 mt-12 text-center text-xs text-blue-100/90">
         <p>Sales Revenue Analytics & Quarterly Variance Engine • Automatic human-error text normalization enabled</p>
       </footer>
     </div>

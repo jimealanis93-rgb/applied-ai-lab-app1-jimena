@@ -8,7 +8,7 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({ currentDataset, totalOrders }) => {
   return (
-    <header className="border-b border-slate-800 bg-slate-950/80 backdrop-blur-md sticky top-0 z-30">
+    <header className="border-b border-blue-400/20 bg-blue-950/70 backdrop-blur-md sticky top-0 z-30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
         <div className="flex items-center gap-3">
           <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center text-white shadow-md shadow-blue-500/20">
